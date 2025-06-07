@@ -1,0 +1,219 @@
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Front-End Developer - Personal Branding</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#hero" aria-label="Front-End Developer Logo">FE Developer</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center gap-3">
+            <li class="nav-item"><a class="nav-link" href="#hero">Beranda</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">Tentang Saya</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skill</a></li>
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portofolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <header id="hero" class="text-center">
+        <h1>Halo, saya Front-End Developer</h1>
+        <p class="subtext mx-auto">Saya membangun antarmuka yang modern, responsif, dan intuitif untuk pengalaman pengguna terbaik.</p>
+        <a href="#contact" class="btn btn-cta">Hubungi Saya</a>
+    </header>
+
+    <section id="about" class="mb-5">
+        <div class="about-content">
+        <img src="galeri/IMG_20241225_200407.jpg" alt="Foto Profil" />
+        <div>
+            <h2>Tentang Saya</h2>
+            <p>
+            Saya adalah seorang front-end developer berpengalaman yang berfokus pada pembuatan website
+            dan aplikasi web yang responsif dan modern menggunakan HTML, CSS, JavaScript,
+            dan framework populer seperti Bootstrap dan React.
+            </p>
+        </div>
+        </div>
+    </section>
+
+    <section id="skills" class="mb-5">
+        <h2 class="text-center mb-4">Skill Saya</h2>
+        <div class="container">
+        <div class="row g-4">
+            <div class="col-sm-6 col-lg-3">
+            <div class="skill-card">
+                <h3>HTML5 &amp; CSS3</h3>
+                <div class="progress" role="progressbar" aria-label="HTML and CSS skill level" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+                <small class="text-muted mt-2 d-block">Expert level</small>
+            </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <div class="progress" role="progressbar" aria-label="JavaScript skill level" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+                <small class="text-muted mt-2 d-block">Advanced</small>
+            </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+            <div class="skill-card">
+                <h3>Bootstrap 5</h3>
+                <div class="progress" role="progressbar" aria-label="Bootstrap skill level" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+                <small class="text-muted mt-2 d-block">Expert level</small>
+            </div>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+            <div class="skill-card">
+                <h3>React</h3>
+                <div class="progress" role="progressbar" aria-label="React skill level" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 80%;"></div>
+                </div>
+                <small class="text-muted mt-2 d-block">Intermediate</small>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="mb-5">
+        <h2 class="text-center mb-4">Portofolio</h2>
+        <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+            <div class="card" tabindex="0" aria-label="Project Portfolio 1">
+                <img src="galeri/Screenshot 2025-06-07 134859.png" alt="Project 1 Screenshot" />
+                <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Website Company Profile</h5>
+                <p class="card-text flex-grow-1">Website profil perusahaan yang responsif dengan desain modern dan optimasi SEO.</p>
+                <a href="#" class="btn btn-cta mt-3 align-self-start" aria-label="View Project 1 details">Lihat Project</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+            <div class="card" tabindex="0" aria-label="Project Portfolio 2">
+                <img src="galeri/Screenshot 2025-06-07 134859.png" alt="Project 2 Screenshot" />
+                <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Aplikasi Web E-Commerce</h5>
+                <p class="card-text flex-grow-1">Membangun front-end aplikasi e-commerce dengan fitur lengkap dan desain user-friendly.</p>
+                <a href="#" class="btn btn-cta mt-3 align-self-start" aria-label="View Project 2 details">Lihat Project</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+            <div class="card" tabindex="0" aria-label="Project Portfolio 3">
+                <img src="galeri/Screenshot 2025-06-07 134859.png" alt="Project 3 Screenshot" />
+                <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Dashboard Analytics</h5>
+                <p class="card-text flex-grow-1">Dashboard interaktif dengan visualisasi data menggunakan chart dan filter dinamis.</p>
+                <a href="#" class="btn btn-cta mt-3 align-self-start" aria-label="View Project 3 details">Lihat Project</a>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="contact" class="mb-5">
+        <h2 class="text-center mb-4">Kontak Saya</h2>
+        <form id="contact-form" novalidate>
+        <div class="mb-3">
+            <label for="name" class="form-label">Nama</label>
+            <input type="text" id="name" name="name" class="form-control" placeholder="Nama Anda" required aria-required="true" />
+            <div class="invalid-feedback">Mohon isi nama Anda.</div>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-control" placeholder="email@example.com" required aria-required="true" />
+            <div class="invalid-feedback">Mohon masukkan email yang valid.</div>
+        </div>
+        <div class="mb-3">
+            <label for="message" class="form-label">Pesan</label>
+            <textarea id="message" name="message" class="form-control" placeholder="Tulis pesan Anda di sini..." rows="4" required aria-required="true"></textarea>
+            <div class="invalid-feedback">Mohon isi pesan Anda.</div>
+        </div>
+        <button type="submit" class="btn btn-send" aria-label="Kirim pesan">Kirim Pesan</button>
+        </form>
+    </section>
+
+    <footer>
+        &copy; 2024 Front-End Developer. All rights reserved.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3.11.0/dist/email.min.js"></script>
+    <script>
+        emailjs.init('YOUR_PUBLIC_KEY'); // Replace with your EmailJS public key
+
+        // Smooth scroll for nav links
+        document.querySelectorAll('a.nav-link[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            if (this.hash !== "") {
+            e.preventDefault();
+            const target = document.querySelector(this.hash);
+            if(target) {
+                target.scrollIntoView({ behavior: "smooth" });
+                // Collapse navbar on mobile after click
+                const navbarCollapse = document.querySelector('.navbar-collapse');
+                if (navbarCollapse.classList.contains('show')) {
+                new bootstrap.Collapse(navbarCollapse).toggle();
+                }
+            }
+            }
+        });
+        });
+
+        // Form validation and EmailJS sending
+        (function () {
+        'use strict';
+        const form = document.getElementById('contact-form');
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+
+            if (!form.checkValidity()) {
+            form.classList.add('was-validated');
+            return;
+            }
+
+            // Prepare EmailJS parameters
+            const templateParams = {
+            from_name: form.name.value,
+            from_email: form.email.value,
+            message: form.message.value,
+            to_email: 'mhmmdabil828@gmail.com'
+            };
+
+            // Send email via EmailJS
+            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+            .then(function () {
+                alert('Pesan berhasil dikirim! Terima kasih telah menghubungi saya.');
+                form.reset();
+                form.classList.remove('was-validated');
+            }, function (error) {
+                alert('Gagal mengirim pesan, silakan coba lagi nanti.\nError: ' + error.text);
+            });
+        });
+        })();
+    </script>
+    </body>
+    </html>
+
